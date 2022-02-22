@@ -323,6 +323,50 @@ Counts:
 
 
 
- NAS Parallel Benchmarks 3.4 -- MG Benchmark
+NAS Parallel Benchmarks 3.4 -- MG Benchmark
 
  No input file. Using compiled defaults 
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x7f0617a2ad21 in ???
+#1  0x7f0617a29ef5 in ???
+#2  0x7f06176f420f in ???
+#3  0x7f061783cb58 in ???
+#4  0x55948f02f740 in ???
+#5  0x55948f03bb8c in ???
+#6  0x55948f02f2fe in ???
+#7  0x7f06176d50b2 in ???
+#8  0x55948f02f33d in ???
+#9  0xffffffffffffffff in ???
+#0  0x7f68fe9f6d21 in ???
+#1  0x7f68fe9f5ef5 in ???
+#2  0x7f68fe6c020f in ???
+#3  0x7f68fe808b58 in ???
+#4  0x564b2f8b7740 in ???
+#5  0x564b2f8c3b8c in ???
+#6  0x564b2f8b72fe in ???
+#7  0x7f68fe6a10b2 in ???
+#8  0x564b2f8b733d in ???
+#9  0xffffffffffffffff in ???
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node ozmpc2 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
