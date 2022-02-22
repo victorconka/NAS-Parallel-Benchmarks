@@ -1,0 +1,270 @@
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:      14000  (class A)
+ Iterations:    15
+ Number of nonzeroes per row:       11
+ Eigenvalue shift:    20.000
+ Total number of processes:     64
+
+   iteration           ||r||                 zeta
+        1       0.23082748870552E-12    19.9997581277040
+        2       0.22388564950900E-14    17.1140495745506
+        3       0.22430340134709E-14    17.1296668946143
+        4       0.22572944904735E-14    17.1302113581192
+        5       0.22497880911402E-14    17.1302338856353
+        6       0.22278556062597E-14    17.1302349879482
+        7       0.22107597844210E-14    17.1302350498916
+        8       0.21927271215759E-14    17.1302350537510
+        9       0.22089135986113E-14    17.1302350540101
+       10       0.21692014536545E-14    17.1302350540284
+       11       0.21247817381242E-14    17.1302350540298
+       12       0.21241626554659E-14    17.1302350540299
+       13       0.20828998028314E-14    17.1302350540299
+       14       0.20589534712525E-14    17.1302350540299
+       15       0.20447125588399E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.54
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  2765.43
+ Mop/s/process   =                    43.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.4 -- EP Benchmark
+
+ Number of random numbers generated:       536870912  (class A)
+ Total number of processes:                       64
+
+EP Benchmark Results:
+
+CPU Time =     0.390
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =     1.682235632304701D+08    1.682195123368289D+08
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     0.39
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  1375.99
+ Mop/s/process   =                    21.50
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  256x 256x 128  (class A)
+ Iterations          :              6
+ Number of processes :             64
+ Processor array     :         1x  64
+ Layout type         :             1D
+
+ Initialization time =      0.3665
+
+ T =    1     Checksum =    5.046735008193D+02    5.114047905510D+02
+ T =    2     Checksum =    5.059412319734D+02    5.098809666433D+02
+ T =    3     Checksum =    5.069376896287D+02    5.098144042213D+02
+ T =    4     Checksum =    5.077892868474D+02    5.101336130759D+02
+ T =    5     Checksum =    5.085233095391D+02    5.104914655194D+02
+ T =    6     Checksum =    5.091487099959D+02    5.107917842803D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 128
+ Iterations      =                        6
+ Time in seconds =                     2.92
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  2440.87
+ Mop/s/process   =                    38.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:   10
+ Total number of processes:  64
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.59
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                   140.99
+ Mop/s/process   =                     2.20
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class A)
+ Iterations:    4
+ Total number of processes:     64
+
+
+ Initialization time:           0.881 seconds
+
+  iter    1
+  iter    4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.2433365309069E-05
+ Error is    0.1989340965583E-12
+
+
+ MG Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 256
+ Iterations      =                        4
+ Time in seconds =                     2.24
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  1736.79
+ Mop/s/process   =                    27.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

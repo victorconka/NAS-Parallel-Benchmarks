@@ -1,0 +1,326 @@
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:      2
+
+   iteration           ||r||                 zeta
+        1       0.13809081711579E-11   499.9996989885352
+        2       0.90138111070714E-15    49.1792921222655
+        3       0.92983328739793E-15    49.7621417781024
+        4       0.96071930853674E-15    50.2476108448528
+        5       0.98906004909768E-15    50.6504113318656
+        6       0.10138384312264E-14    50.9835679329954
+        7       0.10352387305538E-14    51.2584179093586
+        8       0.10538456424269E-14    51.4846993919530
+        9       0.10708785700439E-14    51.6706894462853
+       10       0.10830469209958E-14    51.8233647189939
+       11       0.10937806635707E-14    51.9485666805600
+       12       0.11029114998192E-14    52.0511603649590
+       13       0.11093250831856E-14    52.1351803974302
+       14       0.11152554989305E-14    52.2039614064443
+       15       0.11193084553612E-14    52.2602520412585
+       16       0.11230679822307E-14    52.3063130997597
+       17       0.11250733087739E-14    52.3440009815691
+       18       0.11289208258124E-14    52.3748380152673
+       19       0.11315285254671E-14    52.4000713044044
+       20       0.11341557478956E-14    52.4207216938423
+       21       0.11331821839807E-14    52.4376243380993
+       22       0.11358925381618E-14    52.4514621958400
+       23       0.11357368509532E-14    52.4627936097330
+       24       0.11371695705860E-14    52.4720749669624
+       25       0.11389490414815E-14    52.4796792873470
+       26       0.11386628033088E-14    52.4859114504421
+       27       0.11386768276472E-14    52.4910206572321
+       28       0.11405672666670E-14    52.4952106205697
+       29       0.11426776218522E-14    52.4986478935500
+       30       0.11407734355896E-14    52.5014686735307
+       31       0.11404642454121E-14    52.5037843586987
+       32       0.11421902752281E-14    52.5056860859153
+       33       0.11420829166932E-14    52.5072484353539
+       34       0.11415469621628E-14    52.5085324557555
+       35       0.11419241681114E-14    52.5095881341479
+       36       0.11427151845930E-14    52.5104564131413
+       37       0.11421373155356E-14    52.5111708380624
+       38       0.11423407810482E-14    52.5117589027048
+       39       0.11430832930695E-14    52.5122431486834
+       40       0.11433644399206E-14    52.5126420639661
+       41       0.11448407904359E-14    52.5129708170913
+       42       0.11414318416390E-14    52.5132418579293
+       43       0.11428259201773E-14    52.5134654084301
+       44       0.11450678391187E-14    52.5136498646955
+       45       0.11437043944157E-14    52.5138021256340
+       46       0.11450454969490E-14    52.5139278620820
+       47       0.11432564009584E-14    52.5140317371892
+       48       0.11442314970081E-14    52.5141175871776
+       49       0.11438959822738E-14    52.5141885689067
+       50       0.11437331409354E-14    52.5142472814326
+       51       0.11444461223369E-14    52.5142958653941
+       52       0.11424483360274E-14    52.5143360844801
+       53       0.11438676586737E-14    52.5143693924389
+       54       0.11426649093243E-14    52.5143969881534
+       55       0.11440930437905E-14    52.5144198604577
+       56       0.11427863600078E-14    52.5144388254713
+       57       0.11432205731667E-14    52.5144545570833
+       58       0.11432010648153E-14    52.5144676116805
+       59       0.11443484383952E-14    52.5144784491855
+       60       0.11440983867605E-14    52.5144874496765
+       61       0.11443933295528E-14    52.5144949274189
+       62       0.11413666173125E-14    52.5145011425176
+       63       0.11438407792372E-14    52.5145063101817
+       64       0.11440686829562E-14    52.5145106085532
+       65       0.11419590546779E-14    52.5145141852295
+       66       0.11436726383024E-14    52.5145171625381
+       67       0.11433306909566E-14    52.5145196417967
+       68       0.11431233648344E-14    52.5145217071298
+       69       0.11430644638318E-14    52.5145234282537
+       70       0.11445964509181E-14    52.5145248630645
+       71       0.11437326771542E-14    52.5145260596285
+       72       0.11417334667806E-14    52.5145270578515
+       73       0.11435459324453E-14    52.5145278908680
+       74       0.11419167826602E-14    52.5145285863336
+       75       0.11443238042789E-14    52.5145291671142
+       76       0.11438029106446E-14    52.5145296522800
+       77       0.11424995588152E-14    52.5145300577242
+       78       0.11414638464041E-14    52.5145303966538
+       79       0.11431842678571E-14    52.5145306800726
+       80       0.11421691245674E-14    52.5145309171581
+       81       0.11403285677831E-14    52.5145311155214
+       82       0.11425405900935E-14    52.5145312815713
+       83       0.11423794007348E-14    52.5145314205996
+       84       0.11429041428056E-14    52.5145315370206
+       85       0.11437723658790E-14    52.5145316345728
+       86       0.11419965515503E-14    52.5145317163000
+       87       0.11418743265525E-14    52.5145317848354
+       88       0.11437086721853E-14    52.5145318422923
+       89       0.11423003174791E-14    52.5145318904769
+       90       0.11445064853050E-14    52.5145319309082
+       91       0.11416668412914E-14    52.5145319648451
+       92       0.11415824339961E-14    52.5145319933223
+       93       0.11426928292740E-14    52.5145320172152
+       94       0.11440096401920E-14    52.5145320373111
+       95       0.11424481508208E-14    52.5145320541859
+       96       0.11432451931598E-14    52.5145320683592
+       97       0.11428441884559E-14    52.5145320802696
+       98       0.11414969825712E-14    52.5145320902890
+       99       0.11422926086158E-14    52.5145320987050
+      100       0.11429217204984E-14    52.5145321057936
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.6629897031569E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                  7434.88
+ Total processes =                        2
+ Active processes=                        2
+ Mop/s total     =                   489.97
+ Mop/s/process   =                   244.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+ NAS Parallel Benchmarks 3.4 -- EP Benchmark
+
+ Number of random numbers generated:    137438953472  (class D)
+ Total number of processes:                        2
+
+EP Benchmark Results:
+
+CPU Time =  2894.715
+N = 2^   36
+No. Gaussian Pairs =   53972171957.
+Sums =     4.306350280828403D+10    4.306347571858447D+10
+Counts:
+  0   25154622775.
+  1   24017899906.
+  2    4508609839.
+  3     284201296.
+  4       6776403.
+  5         61541.
+  6           197.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        D
+ Size            =             137438953472
+ Iterations      =                        0
+ Time in seconds =                  2894.71
+ Total processes =                        2
+ Active processes=                        2
+ Mop/s total     =                    47.48
+ Mop/s/process   =                    23.74
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :              2
+ Processor array     :         1x   2
+ Layout type         :             1D
+
+ Initialization time =    517.7235
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                 11719.23
+ Total processes =                        2
+ Active processes=                        2
+ Mop/s total     =                   764.87
+ Mop/s/process   =                   382.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              21 Feb 2022
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+ 
+Invalid MIT-MAGIC-COOKIE-1 key
+ ERROR: number of processes 2 not within range 4-1024
+ Exiting program!
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3188,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+
+
+ NAS Parallel Benchmarks 3.4 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x7fcf286d8d21 in ???
+#1  0x7fcf286d7ef5 in ???
+#2  0x7fcf283a220f in ???
+#3  0x7fcf284eab58 in ???
+#4  0x560de578e740 in ???
+#5  0x560de579ab8c in ???
+#6  0x560de578e2fe in ???
+#7  0x7fcf283830b2 in ???
+#8  0x560de578e33d in ???
+#9  0xffffffffffffffff in ???
+#0  0x7f2f9a198d21 in ???
+#1  0x7f2f9a197ef5 in ???
+#2  0x7f2f99e6220f in ???
+#3  0x7f2f99faab58 in ???
+#4  0x560de83fc740 in ???
+#5  0x560de8408b8c in ???
+#6  0x560de83fc2fe in ???
+#7  0x7f2f99e430b2 in ???
+#8  0x560de83fc33d in ???
+#9  0xffffffffffffffff in ???
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node ozmpc2 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
