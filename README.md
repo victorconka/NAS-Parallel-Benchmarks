@@ -8,11 +8,12 @@ Performance tests of Intel, AMD and ARM platforms executing 5 kernels of NAS Par
 
 
 # Compile configuration  
-Used standard "make.def.template" for Intel and AMD, nevertheless had to use "make.def.gcc_mpich_m" for AMPERE processor.  
+Used standard "make.def.template" for Intel and AMD, nevertheless had to use "make.def.gcc_mpich_m" for ARM processor.  
 
 
 ## Objective
 Execute class D problem size for all 5 benchmarks mentioned above starting with number of processes np=1, incrementing by power of 2 up to np=64 for both available implementations: MPI and OMP.
+
 
 ## Problem
 Execution of MPI benchmark implementations of (FT, IS, MG) presents problems for np <= 8.  
